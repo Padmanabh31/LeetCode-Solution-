@@ -47,6 +47,27 @@ public:
 
     return mini ; 
 
+
+
+
+
+
+        /*
+
+add this in the last case which handel all edge cases 
+
+
+ int lastdiff = (minutes[0] +1440) - minutes[n-1] ; 
+        // int lastdiff2 = minutes[n-1] - minutes[0] ; 
+        // int lastdiff = min(lastdiff1 , lastdiff2) ;
+        mini = min (mini , lastdiff ) ; 
+
+
+
+
+
+            */
+
     }
     
 };
